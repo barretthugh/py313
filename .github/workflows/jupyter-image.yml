@@ -36,4 +36,4 @@ jobs:
         file: ./jupyter/Dockerfile
         platforms: linux/amd64,linux/arm64
         push: true
-        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/jupyterpy311
+        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/jupyterpy313
