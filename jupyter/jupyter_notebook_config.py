@@ -1,0 +1,9 @@
+c = get_config()
+c.ServerApp.allow_root = True
+c.ServerApp.allow_remote_access = True
+c.ServerApp.ip = '0.0.0.0'
+c.ServerApp.port = 8888
+c.ServerApp.open_browser = False
+c.MultiKernelManager.default_kernel_name = 'python3'
+c.IdentityProvider.token = ''
+c.ServerApp.password = ''
